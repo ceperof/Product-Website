@@ -37,7 +37,7 @@ handleScroll = (event) => {
         className="HeaderGroup" id="myHeaderGroup">
           <a href="/">WORK</a>
           <a href="/aboutme">ABOUT</a>
-          <a href="https://www.dropbox.com/s/43jqi6zksemalv3/Design%20Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">RESUME</a>
+          <a href="https://www.dropbox.com/s/fm0uror7nyx1kjy/Felipe%20Cepero%20Product%20Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">RESUME</a>
           </div>
 
         <div className="dropdown">
