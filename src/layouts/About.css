@@ -1,0 +1,194 @@
+
+ @keyframes AboutAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+  }
+
+  @keyframes ImageAnimation {
+    0% {
+        transform: translateY(20px)
+    }
+    100% {
+        transform: translateY(0px)
+    }
+  }
+
+
+
+.AboutGroup p{
+    font-weight: 300;
+    font-size: .9em;
+    width: 80%;
+    padding: 20px 0 0 0;
+    animation: AboutAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+    @media (max-width: 1060px) {
+        .AboutGroup p{
+        width: 80%;
+        }
+    }
+
+    @media (max-width: 720px) {
+        .AboutGroup p{
+        font-size: .8em;
+        width: 70%;
+    
+    }
+}
+
+.AboutGroup ul {
+    display: grid;
+    padding: 20px 0;
+    grid-row-gap: 1em;
+    animation: AboutAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.AboutGroup a{
+    color: rgba(0,102,255);
+    font-weight: 400;
+    font-size: .9em;
+}
+
+    @media (max-width: 720px) {
+        .AboutGroup a{
+        font-size: .8em;
+    }
+}
+
+.AboutGroup h1{
+
+    font-weight: 400;
+    font-size: 1.8em;
+    animation: AboutAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+    @media (max-width: 1060px) {
+        .AboutGroup h1{
+        font-size: 1.6em;
+    
+    }
+    }
+
+    @media (max-width: 720px) {
+        .AboutGroup h1{
+        font-size: 1.5em;
+    }
+}
+
+    @media (max-width: 550px) {
+        .AboutGroup h1{
+        font-size: 1.4em;
+        }
+}
+
+.About img {
+    width: 302px;
+    height: 321px;
+    padding: 30px 0 0 0;
+    align-content: center;
+    animation: ImageAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+
+    @media (max-width: 1060px) {
+        .About img {
+        width: 242px;
+        height: 257px;
+        }
+    }
+
+    @media (max-width: 720px) {
+        .About img {
+        width: 362px;
+        height: 385px;
+        padding: 0 2em;
+    }
+}
+
+    @media (max-width: 550px) {
+        .About img {
+        width: 242px;
+        height: 257px;
+        padding: 0 2em;
+        }
+    }
+
+.About {
+    height: 100%;
+    width: 100%;
+    margin: 4em 4em 0em 4em;
+    display: grid;
+    grid-template-columns: 320px auto;
+    grid-column-gap: 4em;
+    grid-template-rows: auto 100%;
+}
+
+    @media (max-width: 1060px) {
+        .About {
+        margin: 4em 2em 0em 2em;
+        grid-template-columns: 220px auto;
+    }
+}
+
+    @media (max-width: 720px) {
+        .About {
+        grid-template-columns: 1fr;
+    }
+  }
+
+.AboutGroup {
+    margin: -.5em 2em 0em 0em;
+
+}
+    @media (max-width: 1060px) {
+        .AboutGroup {
+        margin: 0em 0em 0em 2em;
+    }
+}
+
+.Rectangle {
+    width: 1440px;
+    height: 80px;
+    background-color: #f4f4f4;
+    position: relative;
+    top: 160px;
+    z-index: -1;
+    animation: AboutAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+    @media (max-width: 720px) {
+        .Rectangle {
+        top: 130px;
+    }
+
+  }
+
+

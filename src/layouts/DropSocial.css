@@ -1,0 +1,566 @@
+.SocialGroup{
+    margin: 0em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .SocialGroup{
+    width: 500px;
+    }
+}
+
+    @media (max-width: 600px) {
+        .SocialGroup{
+    width: 400px;
+    }
+}
+
+    @media (max-width: 500px) {
+        .SocialGroup{
+        width: 320px;
+        }
+}
+
+.SocialGroup h1 {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+    @media (max-width: 900px) {
+        .SocialGroup h1 {
+        font-size: 1.4em;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .SocialGroup h1 {
+        font-size: 1.2em;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .SocialGroup h1 {
+        font-size: 1em;
+    }
+}
+
+.SocialGroup h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+    @media (max-width: 900px) {
+        .SocialGroup h2 {
+        font-size: 1.3em;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .SocialGroup h2 {
+        font-size: 1.1em;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .SocialGroup h2 {
+        font-size: .9em;
+        width: 340px;
+    }
+}
+
+.SocialGroup h3 {
+    margin: 7em auto 2em auto;
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+    @media (max-width: 500px) {
+        .SocialGroup h3 {
+        margin: 5em auto 2em auto;
+    }
+}
+
+.SocialGroup h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .SocialGroup h4 {
+        font-size: .8em;
+        }
+}
+
+.SocialGroup p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialGroup p {
+        font-size: .8em;
+        }
+}
+
+.SocialGroup li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.SocialBanner {
+    margin: 5em auto 3em auto;
+    text-align: center;
+}
+    
+    @media (max-width: 800px) {
+        .SocialBanner {
+        margin: 6em auto 0em auto;    
+        }
+    }
+
+    @media (max-width: 700px) {
+        .SocialBanner {
+    margin: 6em auto 1em auto;    
+    }
+}
+
+.SocialBanner img {
+    width: 60%;
+    height: auto;
+}
+
+    @media (max-width: 1100px) {
+        .SocialBanner img {
+    width: 80%;
+    Height: auto;
+    }
+}
+
+    @media (max-width: 500px) {
+        .SocialBanner img {
+        width: 100%;
+        Height: auto;
+        }
+}
+
+.SocialResearch {
+    margin: 5em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .SocialResearch {
+        width: 500px;
+        }
+    }
+    
+    
+    @media (max-width: 600px) {
+        .SocialResearch {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .SocialResearch {
+        width: 320px;
+        }    
+}
+
+.SocialResearch h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+
+}
+
+.SocialResearch h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.SocialResearch h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .SocialResearch h4 {
+        font-size: .8em;
+        }
+}
+
+.SocialResearch p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialResearch p {
+        font-size: .8em;
+        }
+}
+
+.SocialResearch li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialResearch li {
+        font-size: .8em;
+        }
+}
+
+.SocialResearch li span {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgba(0,102,255);
+}
+
+    @media (max-width: 800px) {
+        .SocialResearch li span {
+        font-size: .9em;
+        }
+}
+
+.SocialAssumptions {
+    margin: 3em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .SocialAssumptions {
+        width: 500px;
+        }
+    }
+    
+    
+    @media (max-width: 600px) {
+        .SocialAssumptions {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .SocialAssumptions {
+        width: 320px;
+        }
+}
+
+.SocialAssumptions h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.SocialAssumptions h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.SocialAssumptions h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .SocialAssumptions h4 {
+        font-size: .8em;
+        }
+}
+
+.SocialAssumptions p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialAssumptions p {
+        font-size: .8em;
+        }
+}
+
+.SocialAssumptions li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialAssumptions li {
+        font-size: .8em;
+        }
+}
+
+.SocialSolution {
+    margin: 3em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+    
+    @media (max-width: 800px) {
+        .SocialSolution {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .SocialSolution {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .SocialSolution {
+        width: 320px;
+        }
+}
+
+.SocialSolution h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.SocialSolution h3 {
+    margin: 3em auto 2em auto;
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.SocialSolution  h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .SocialSolution  h4 {
+        font-size: .8em;
+        }
+}
+
+.SocialSolution  p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialSolution  p {
+        font-size: .8em;
+        }
+}
+
+.SocialSolution p span {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgba(0,102,255);
+}
+
+    @media (max-width: 800px) {
+        .SocialSolution p span {
+        font-size: .9em;
+        }
+
+}
+
+.SocialSolution li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialSolution li {
+        font-size: .8em;
+        }
+}
+
+.Wireframe{
+    margin: -1em auto -1em auto;
+    text-align: center;
+}
+
+.WSocial{
+    margin: -1em auto 0 auto;
+    width: 85%;
+}
+
+.WSocial img {
+    width: 1227px;
+    height: 355px;
+}
+
+.Wireframe img {
+    width: 90%;
+    height: auto;
+}
+
+.Fidelity {
+    margin: 0em auto 0 auto;
+    text-align: center;
+}
+
+.Fidelity img {
+    width: 90%;
+    height: auto;
+}
+
+.Fidelity2 {
+    margin: 0em auto 0 auto;
+    width: 80%; 
+}
+
+.Fidelity2 img {
+    width: 1240px;
+    height: 425px;
+}
+
+.FidelityAnimation {
+    margin: 2em auto;
+    width: 320px;
+
+}
+
+.BeforeSocial {
+    margin: 0em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .BeforeSocial {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .BeforeSocial {
+        width: 400px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .BeforeSocial {
+        width: 320px;
+        }
+}
+
+.BeforeSocial h3 {
+    margin: 3em auto 1em auto;
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.BeforeSocial p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .BeforeSocial p {
+        font-size: .8em;
+        }
+}
+
+.After {
+    margin: 0em auto 0 auto;
+    text-align: center; 
+
+}
+
+.After img {
+    width: 90%;
+    height: auto;
+}
+
+.SocialReflection{
+    margin: 1.5em auto 2em auto;
+    width: 725px;
+    align-content: center;   
+}
+
+    @media (max-width: 800px) {
+        .SocialReflection{
+        width: 500px;
+        }
+    }
+    
+    
+    @media (max-width: 600px) {
+        .SocialReflection{
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .SocialReflection{
+        width: 320px;
+        }
+}
+
+.SocialReflection h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.SocialReflection h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.SocialReflection  h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .SocialReflection  h4 {
+        font-size: .8em;
+        }
+}
+
+.SocialReflection  p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialReflection  p {
+        font-size: .8em;
+        }
+}
+
+.SocialReflection li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .SocialReflection li {
+        font-size: .8em;
+        }
+}
+
+

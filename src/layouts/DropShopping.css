@@ -1,0 +1,540 @@
+.ShoppingGroup{
+    margin: 0em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingGroup{
+    width: 500px;
+    }
+}
+
+    @media (max-width: 600px) {
+        .ShoppingGroup{
+    width: 400px;
+    }
+}
+
+    @media (max-width: 500px) {
+        .ShoppingGroup{
+        width: 320px;
+        }
+}
+
+.ShoppingGroup h1 {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+    @media (max-width: 900px) {
+        .ShoppingGroup h1 {
+        font-size: 1.4em;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .ShoppingGroup h1 {
+        font-size: 1.2em;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .ShoppingGroup h1 {
+        font-size: 1em;
+    }
+}
+
+.ShoppingGroup h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+    @media (max-width: 900px) {
+        .ShoppingGroup h2 {
+        font-size: 1.3em;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .ShoppingGroup h2 {
+        font-size: 1.1em;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ShoppingGroup h2 {
+        font-size: .9em;
+        width: 330px;
+    }
+}
+
+.ShoppingGroup h3 {
+    margin: 7em auto 2em auto;
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+    @media (max-width: 500px) {
+        .ShoppingGroup h3 {
+        margin: 5em auto 2em auto;
+    }
+}
+
+.ShoppingGroup h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingGroup h4 {
+        font-size: .8em;
+        }
+}
+
+.ShoppingGroup p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingGroup p {
+        font-size: .8em;
+        }
+
+}
+
+.ShoppingGroup li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.ShoppingBanner {
+    margin: 5em auto 3em auto;
+    text-align: center;
+}
+    
+    @media (max-width: 800px) {
+        .ShoppingBanner {
+        margin: 6em auto 0em auto;    
+        }
+    }
+
+    @media (max-width: 700px) {
+        .ShoppingBanner {
+    margin: 6em auto 1em auto;    
+    }
+}
+
+.ShoppingBanner img {
+    width: 60%;
+    height: auto;
+}
+
+    @media (max-width: 1100px) {
+        .ShoppingBanner img {
+    width: 80%;
+    Height: auto;
+    }
+    }
+
+    @media (max-width: 500px) {
+        .ShoppingBanner img {
+        width: 100%;
+        Height: auto;
+        }
+}
+
+.ShoppingResearch {
+    margin: 5em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingResearch {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .ShoppingResearch {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .ShoppingResearch {
+        width: 320px;
+        }   
+}
+
+.ShoppingResearch h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+
+}
+
+.ShoppingResearch h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.ShoppingResearch h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingResearch h4 {
+        font-size: .8em;
+        }
+}
+
+.ShoppingResearch p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingResearch p {
+        font-size: .8em;
+        }
+}
+
+.ShoppingResearch li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingResearch li {
+        font-size: .8em;
+        }
+}
+
+.ShoppingResearch li span {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgba(0,102,255);
+}
+
+    @media (max-width: 800px) {
+        .ShoppingResearch li span {
+        font-size: .8em;
+        }
+}
+
+
+.ShoppingPictures {
+    margin: 1em auto;
+    text-align: center;
+
+}
+.ShoppingPictures img {
+    width: 25%;
+    height: auto;
+}
+
+    @media (max-width: 700px) {
+        .ShoppingPictures img {
+        width: 40%;
+        Height: auto;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .ShoppingPictures img {
+        width: 50%;
+        Height: auto;
+        }
+}
+
+.ShoppingAnimation {
+    margin: 2em auto;
+    width: 320px;
+    
+}
+
+.ShoppingAnimation p{
+    font-size: .9em;
+    font-weight: 300;
+    text-align: center;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingAnimation p{
+        font-size: .8em;
+        }
+}
+
+.ShoppingAnimation p span {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgba(0,102,255);
+}
+
+    @media (max-width: 800px) {
+        .ShoppingAnimation p span {
+        font-size: .9em;
+        }
+}
+
+
+.ShoppingAssumptions {
+    margin: 3em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingAssumptions {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .ShoppingAssumptions {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .ShoppingAssumptions {
+        width: 320px;
+        }
+}
+
+.ShoppingAssumptions h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.ShoppingAssumptions h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.ShoppingAssumptions h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingAssumptions h4 {
+        font-size: .8em;
+        }
+}
+
+.ShoppingAssumptions p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingAssumptions p {
+        font-size: .8em;
+        }
+}
+
+.ShoppingAssumptions li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingAssumptions li {
+        font-size: .8em;
+        }
+}
+
+.ShoppingSolution {
+    margin: 3em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+    
+    @media (max-width: 800px) {
+        .ShoppingSolution {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .ShoppingSolution {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .ShoppingSolution {
+        width: 320px;
+        }
+}
+
+.ShoppingSolution h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.ShoppingSolution h3 {
+    margin: 3em auto 2em auto;
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.ShoppingSolution  h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingSolution  h4 {
+        font-size: .8em;
+        }
+}
+
+.ShoppingSolution  p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingSolution  p {
+        font-size: .8em;
+        }
+}
+
+.ShoppingSolution p span {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgba(0,102,255);
+}
+
+    @media (max-width: 800px) {
+        .ShoppingSolution p span {
+        font-size: .8em;
+        }
+
+}
+
+.ShoppingSolution li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingSolution li {
+        font-size: .8em;
+        }
+}
+
+
+.ShoppingWireframe{
+    margin: -1em auto -1em auto;
+    text-align: center;
+}
+
+.ShoppingWireframe img {
+    width: 90%;
+    height: auto;
+}
+
+.ShoppingFidelity {
+    margin: 0em auto 0 auto;
+    text-align: center;
+}
+
+.ShoppingFidelity img {
+    width: 90%;
+    height: auto;
+}
+
+.ShoppingReflection{
+    margin: 1.5em auto 2em auto;
+    width: 725px;
+    align-content: center;   
+}
+
+    @media (max-width: 800px) {
+        .ShoppingReflection{
+        width: 500px;
+        }
+    }
+    
+    
+    @media (max-width: 600px) {
+        .ShoppingReflection{
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .ShoppingReflection{
+        width: 320px;
+        }
+}
+
+.ShoppingReflection h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.ShoppingReflection h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.ShoppingReflection  h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingReflection  h4 {
+        font-size: .8em;
+        }
+}
+
+.ShoppingReflection  p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingReflection  p {
+        font-size: .8em;
+        }
+}
+
+.ShoppingReflection li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .ShoppingReflection li {
+        font-size: .8em;
+        }
+}
+

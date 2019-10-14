@@ -1,0 +1,159 @@
+.FooterAll {
+    background: rgba(244,244,244);
+}
+
+    @media (max-width: 720px) {
+        .FooterAll {
+        
+        margin: 4em 0em 0em 0em;
+        padding: .25em 0em .5em 0em;
+    }
+}
+
+.FooterContent {
+    margin: 8em 4em 0em 4em;
+    padding: 2em 0 0em 0em;
+}
+
+    @media (max-width: 720px) {
+        .FooterContent {
+        margin: 2em 0em 1em 0em;
+        padding: 0em 0em 1em 0em;
+        }
+}
+
+.FooterContent h5 {
+    font-size: .9em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(0,102,255);
+    letter-spacing: 3px;
+}
+
+    @media (max-width: 720px) {
+        .FooterContent h5 {
+    font-size: .8em;
+    }
+}
+
+.FooterContent p {
+
+    font-size: 1em;
+    font-weight: 350;
+    text-align: center;
+    color: rgba(60,72,88);
+    padding: 0 4em;
+    margin: 0 8em;
+}
+
+    @media (max-width: 980px) {
+        .FooterContent p {
+        margin: 0 4em;
+        padding: 0 2em;
+        }
+    }
+
+    @media (max-width: 720px) {
+        .FooterContent p {
+        font-size: .9em;
+        padding: 0 2em;
+        margin: 0 2em;
+    }
+    }
+
+    @media (max-width: 500px) {
+        .FooterContent p {
+        font-size: .9em;
+        margin: 0 0;
+    }
+}
+
+.FooterEmail {
+    margin: 2em 4em 2em 4em;
+    text-align: center;
+}
+
+    @media (max-width:720px){
+        .FooterEmail {
+    margin: 2em 0
+    }
+}
+
+.FooterEmail a {
+    text-transform: uppercase;
+    color: white;
+    background: rgba(0,102,255);
+    padding: 1em 1.5em;
+    text-align: center;
+    font-size: .7em;
+    font-weight: 350;
+    border-radius: 20px;
+    align-self: center;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+
+}
+
+    @media (max-width:720px){
+        .FooterEmail a {
+        padding: .75em 1.25em;
+        font-size: .6em;
+        }
+}
+
+.FooterEmail :hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.5);
+}
+
+.FooterSocialMedia {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin: 2em 18em;
+
+}
+
+    @media (max-width: 1200px) {
+        .FooterSocialMedia {
+        margin: 2em 14em;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .FooterSocialMedia {
+        margin: 2em 10em;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .FooterSocialMedia {
+        margin: 2em 6em;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .FooterSocialMedia {
+        margin: 2em 4em;
+        }
+}
+
+.FooterSocialMedia a {
+    justify-self: center;
+}
+
+.FooterCopyright {
+    margin: 0 4em 0em 4em;
+    padding: 0 0 1em 0em;
+    font-size: .8em;
+    color: rgba(60,72,88);
+    text-align: center;
+
+}
+
+    @media (max-width: 720px) {
+        .FooterCopyright {
+        font-size: .6em;
+        padding: 0 0 0em 0;
+        }
+}

@@ -1,0 +1,151 @@
+.Cards h2 {
+    margin: -140px 20px 100px 20px;
+    margin-bottom: auto;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(0,102,255);
+    letter-spacing: 3px;
+    opacity: 0;
+    animation: HeroAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+    @media (max-width: 720px) {
+        .Cards h2 {
+    font-size: .6em;
+
+    }
+}
+
+
+.Card {
+    width: 510px;
+    height: 590px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    opacity: 0;
+    animation: HeroAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+    @media (max-width: 1060px) {
+        .Card {
+        width: 30em;
+        height: 32em;
+        }
+    }
+
+    @media (max-width: 720px) {
+        .Card {
+        width: 22em;
+        height: 24em;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .Card {
+        width: 15.5em;
+        height: 18em;
+        }
+}
+
+.Card:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
+}
+
+.Card:hover img {
+    transform: translateY(-10px);
+}
+
+.Card img {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Card h3 {
+    color: rgba(60,72,88);
+    font-size: 1.1em;
+    margin: 0px 0px -25px 30px;
+    margin-top: auto;
+    max-width: 400px;
+    font-weight: 500;
+
+}
+    @media (max-width: 1060px) {
+        .Card h3 {
+        font-size: 1.3em;
+        font-weight: 500;
+        max-width: 700px;
+        }
+    }
+
+    @media (max-width: 720px) {
+        .Card h3 {
+        font-size: 1em;
+        font-weight: 550;
+        max-width: 650px;
+        margin: 30px -20px -25px 30px;
+        margin-top: auto;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .Card h3 {
+        font-size: .75em;
+        font-weight: 500;
+        max-width: 350px;
+        margin: 30px -20px -25px 30px;
+        margin-top: auto;
+        }
+}
+
+.Card p {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: .9em;
+    align-self: end;
+    margin: 30px 20px 25px 30px;
+    max-width: 400px;
+    height: 46px;
+}
+    
+    @media (max-width: 1060px) {
+        .Card p {
+        font-size: 1.0em;
+        max-width: 800px;
+        }
+    }
+
+    @media (max-width: 720px) {
+        .Card p {
+        font-size: .9em;
+        max-width: 370px;
+        margin: 30px 20px 10px 30px;
+        }
+    }
+
+      @media (max-width: 550px) {
+        .Card p {
+        font-size: .60em;
+        max-width: 300px;
+        margin: 30px 20px -5px 30px;
+        }
+}

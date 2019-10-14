@@ -1,0 +1,600 @@
+.OnboardingGroup{
+    margin: 0em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingGroup{
+    width: 500px;
+    }
+}
+
+
+    @media (max-width: 600px) {
+        .OnboardingGroup{
+    width: 400px;
+    }
+}
+
+    @media (max-width: 500px) {
+        .OnboardingGroup{
+        width: 320px;
+        }
+}
+
+.OnboardingGroup h1 {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+    @media (max-width: 900px) {
+        .OnboardingGroup h1 {
+        font-size: 1.4em;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .OnboardingGroup h1 {
+        font-size: 1.2em;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .OnboardingGroup h1 {
+        font-size: 1em;
+    }
+}
+
+.OnboardingGroup h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+    @media (max-width: 900px) {
+        .OnboardingGroup h2 {
+        font-size: 1.3em;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .OnboardingGroup h2 {
+        font-size: 1.1em;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .OnboardingGroup h2 {
+        font-size: .9em;
+        width: 340px;
+    }
+}
+
+.OnboardingGroup h3 {
+    margin: 7em auto 2em auto;
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+    @media (max-width: 500px) {
+        .OnboardingGroup h3 {
+        margin: 5em auto 2em auto;
+    }
+}
+
+.OnboardingGroup h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingGroup h4 {
+        font-size: .8em;
+        }
+}
+
+.OnboardingGroup p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingGroup p {
+        font-size: .8em;
+        }
+}
+
+.OnboardingGroup li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.OnboardingBanner {
+    margin: 5em auto 3em auto;
+    text-align: center;
+}
+
+    @media (max-width: 600px) {
+        .OnboardingBanner {
+    margin: 6em auto 1em auto;    
+    }
+}
+
+    @media (max-width: 450px) {
+        .OnboardingBanner {
+        margin: 6em auto 1em auto;    
+        }
+}
+
+.OnboardingBanner img {
+    width: 60%;
+    height: auto;
+}
+
+    @media (max-width: 1100px) {
+        .OnboardingBanner img {
+    width: 80%;
+    Height: auto;
+    }
+}
+
+    @media (max-width: 500px) {
+        .OnboardingBanner img {
+        width: 100%;
+        Height: auto;
+        }
+}
+
+.OnboardingResearch {
+    margin: 5em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingResearch {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .OnboardingResearch {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .OnboardingResearch {
+        width: 320px;
+        }
+}
+
+.OnboardingResearch h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+
+}
+
+.OnboardingResearch h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.OnboardingResearch h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingResearch h4 {
+        font-size: .8em;
+        }
+}
+
+.OnboardingResearch p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingResearch p {
+        font-size: .8em;
+        }
+}
+
+.OnboardingResearch li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingResearch li {
+        font-size: .8em;
+        }
+}
+
+.OnboardingResearch li span {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgba(0,102,255);
+}
+
+    @media (max-width: 800px) {
+        .OnboardingResearch li span {
+        font-size: .8em;
+        }
+}
+
+.OnboardingAssumptions {
+    margin: 3em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingAssumptions {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .OnboardingAssumptions {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .OnboardingAssumptions {
+        width: 320px;
+        }
+}
+
+.OnboardingAssumptions h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.OnboardingAssumptions h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.OnboardingAssumptions h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingAssumptions h4 {
+        font-size: .8em;
+        }
+}
+
+.OnboardingAssumptions p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingAssumptions p {
+        font-size: .8em;
+        }
+}
+
+.OnboardingAssumptions li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingAssumptions li {
+        font-size: .8em;
+        }
+}
+
+.OnboardingSolution {
+    margin: 3em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+    
+    @media (max-width: 800px) {
+        .OnboardingSolution {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .OnboardingSolution {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .OnboardingSolution {
+        width: 320px;
+        }
+}
+
+.OnboardingSolution h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.OnboardingSolution h3 {
+    margin: 3em auto 2em auto;
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.OnboardingSolution  h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingSolution  h4 {
+        font-size: .8em;
+        }
+
+}
+
+.OnboardingSolution  p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingSolution  p {
+        font-size: .8em;
+        }
+}
+
+.OnboardingSolution p span {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgba(0,102,255);
+}
+
+    @media (max-width: 800px) {
+        .OnboardingSolution p span {
+        font-size: .8em;
+        }
+}
+
+.OnboardingSolution li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingSolution li {
+        font-size: .8em;
+        }
+}
+
+.OnboardingWireframe{
+    margin: -1em auto 0em auto;
+    text-align: center;
+}
+
+.WOnboarding{
+    margin: -1em auto -1em auto;
+    text-align: center;
+}
+
+.WOnboarding img {
+    width: 90%;
+    height: auto;
+}
+
+.OnboardingWireframe img {
+    width: 90%;
+    height: auto;
+}
+
+.OnboardingFidelity {
+    margin: 0em auto -2em auto;
+    text-align: center;
+}
+
+.OnboardingFidelity img {
+    width: 90%;
+    height: auto;
+}
+
+.OnboardingHigh {
+    margin: 0em auto 0em auto;
+    width: 725px;
+    align-content: center;
+}
+    
+    @media (max-width: 800px) {
+        .OnboardingHigh {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .OnboardingHigh {
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .OnboardingHigh {
+        width: 320px;
+        }
+}
+
+.OnboardingHigh h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingHigh h4 {
+        font-size: .8em;
+        }
+    }
+
+.OnboardingFidelity2 {
+    margin: 0em auto 0em auto;
+    text-align: center;
+}
+
+.OnboardingFidelity2 img {
+    width: 90%;
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+
+.FidelityAnimation {
+    margin: 2em auto;
+    width: 320px;
+}
+
+.BeforeOnboarding {
+    margin: 0em auto 2em auto;
+    width: 725px;
+    align-content: center;
+}
+
+    @media (max-width: 800px) {
+        .BeforeOnboarding {
+        width: 500px;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .BeforeOnboarding {
+        width: 400px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .BeforeOnboarding {
+        width: 320px;
+        }
+}
+
+.BeforeOnboarding h3 {
+    margin: 3em auto 1em auto;
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.BeforeOnboarding p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .BeforeOnboarding p {
+        font-size: .8em;
+        }
+}
+
+.OnboardingAfter {
+    margin: 0em auto 0 auto;
+    text-align: center;
+
+}
+
+.OnboardingAfter img {
+    width: 90%;
+    height: auto;
+}
+
+.OnboardingReflection{
+    margin: 1.5em auto 2em auto;
+    width: 725px;
+    align-content: center; 
+}  
+
+    @media (max-width: 800px) {
+        .OnboardingReflection{
+        width: 500px;
+        }
+    }
+    
+    
+    @media (max-width: 600px) {
+        .OnboardingReflection{
+        width: 400px;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        .OnboardingReflection{
+        width: 320px;
+        }
+}
+
+.OnboardingReflection h2 {
+    font-weight: 500;
+    color: rgba(118,118,118);
+    font-size: 1.5em;
+}
+
+.OnboardingReflection h3 {
+    color: rgba(0,102,255);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.OnboardingReflection  h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingReflection  h4 {
+        font-size: .8em;
+        }
+}
+
+.OnboardingReflection  p {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+    @media (max-width: 800px) {
+        .OnboardingReflection  p {
+        font-size: .8em;
+        }
+}
+
+.OnboardingReflection li {
+    font-size: .9em;
+    font-weight: 300;
+}
+
+        @media (max-width: 800px) {
+            .OnboardingReflection li {
+        font-size: .8em;
+        }
+}
+
+
