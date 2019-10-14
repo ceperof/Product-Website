@@ -94,7 +94,7 @@
         margin: -1.3em 0 0 1em;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media (max-width: 600px) {
         .HeaderBrand {
         margin: -1.3em 0 0 0.5em;
     }
