@@ -142,7 +142,6 @@
     height: 100%;
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
     margin: 4em 4em 0em 4em;
     display: grid;
     grid-template-columns: 320px auto;
