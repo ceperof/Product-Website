@@ -53,7 +53,6 @@ handleScroll = (event) => {
           <div className="dropdown-content">
             <a href="/">WORK</a>
             <a href="/aboutme">ABOUT</a>
-            <a href="/resume">RESUME</a>
           </div>
           </div>
 
